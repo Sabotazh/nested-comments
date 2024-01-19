@@ -23,6 +23,14 @@ php artisan make:model Post -mfsrc
 php artisan make:model Comment -mfsrc
 ```
 
+```bash
+php artisan migrate
+```
+
+```bash
+php artisan migrate:fresh --seed
+```
+
 ## License
 
 Licensed under the [MIT license](https://opensource.org/licenses/MIT).
