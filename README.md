@@ -10,7 +10,18 @@ Test task for dZENcode.
 ## Stack
 
 Laravel Framework 10.41.0
+
 PHP 8.3.1
+
+## Artisan commands
+
+```bash
+php artisan make:model Post -mfsrc
+```
+
+```bash
+php artisan make:model Comment -mfsrc
+```
 
 ## License
 
